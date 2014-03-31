@@ -82,6 +82,7 @@
 					<groupId>org.apache.hadoop</groupId>
 					<artifactId>hadoop-core</artifactId>
 					<version>1.0.3</version>
+					<scope>provided</scope>
 				</dependency>
 			</dependencies>
 
@@ -117,7 +118,7 @@
 											</excludes>
 										</filter>
 									</filters>
-									<finalName>${project.artifactId}-aws</finalName>
+									<finalName>${project.artifactId}-job-aws</finalName>
 								</configuration>
 							</execution>
 						</executions>
@@ -137,10 +138,12 @@
 				<dependency>
 					<groupId>org.apache.hadoop</groupId>
 					<artifactId>hadoop-core</artifactId>
+					<scope>provided</scope>
 				</dependency>
 				<dependency>
 					<groupId>org.apache.hadoop</groupId>
 					<artifactId>hadoop-common</artifactId>
+					<scope>provided</scope>
 				</dependency>
 			</dependencies>
 
@@ -176,7 +179,7 @@
 											</excludes>
 										</filter>
 									</filters>
-									<finalName>${project.artifactId}-rbkluster</finalName>
+									<finalName>${project.artifactId}-job-rbkluster</finalName>
 								</configuration>
 							</execution>
 						</executions>
