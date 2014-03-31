@@ -5,7 +5,14 @@
 	<artifactId>rbkluster-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
+
+	<repositories>
+		<repository>
+			<id>cloudera</id>
+			<url>http://repository.cloudera.com/artifactory/cloudera-repos/</url>
+		</repository>
+	</repositories>
+
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -30,5 +37,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
-	
+
 </project>
