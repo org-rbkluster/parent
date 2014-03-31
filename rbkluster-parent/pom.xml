@@ -10,6 +10,9 @@
 		<repository>
 			<id>cloudera</id>
 			<url>http://repository.cloudera.com/artifactory/cloudera-repos/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
 		</repository>
 	</repositories>
 
